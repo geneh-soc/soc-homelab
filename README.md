@@ -1,34 +1,31 @@
-# SOC Home Lab
+## Core Technologies
 
-## Overview
-This repository documents my hands-on SOC and cybersecurity lab environment focused on SIEM operations, threat detection, incident response workflows, and security automation.
-
-## Technologies Used
-- Proxmox 
+### Infrastructure
+- Proxmox VE
+- Windows Server 2022
+- Windows 10 Pro
 - Ubuntu 24.04
+
+### Security Monitoring
+- Wazuh
 - Splunk
+- Sysmon
+- PowerShell Logging
+
+### Automation
 - Python
-- PowerShell
-- Linux
-- Networking / VLANs
+- Bash
+- Ansible
+- APIs
 
-## Objectives
-- Build a functional SOC environment
-- Practice log ingestion and monitoring
-- Develop detection and response workflows
-- Create automation scripts for security operations
-- Improve incident response skills
+### Monitoring & Operations
+- Grafana
+- Uptime Kuma
+- Git
+- SSH
 
-## Current Progress
-- Initial repository creation
-- Building VMware lab environment
-- Ubuntu server deployment
-- Planning Splunk integration
-
-## Planned Enhancements
-- Sysmon integration
-- IOC enrichment automation
-- Risk scoring
-- Threat hunting exercises
-- Dashboard creation
-- Alert workflows
+### Networking
+- VLANs
+- DNS
+- DHCP
+- Firewall Management
